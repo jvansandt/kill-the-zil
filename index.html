@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Error 404</title>
+
+	<style>
+		main {
+			width: 960px;
+			height: 600px;
+			background: lightblue;
+			margin: 0 auto;
+		}
+		h1 {
+			text-align: center;
+			margin: 0 auto;
+		}
+		.bouncehouse {
+			background: darkblue;
+			height: 100%;
+		}
+		img {
+			position:relative;
+			left:810px;
+			height:150px;
+			animation: hor 6s infinite alternate linear;
+    	}
+		.vertical {
+			position: relative;
+			top: 0px;
+			bottom: 600px;
+			animation: vert 5s infinite alternate linear;
+			border-top: 1px dashed white;
+			border-bottom: 1px dashed white;
+		}
+    
+		@keyframes hor {
+		  0%      {right:960px;}
+		  50%     {left:0px;}
+		}
+		@keyframes vert {
+		  0%      {top:450px;}
+		  50%     {bottom:0px;}
+		}
+	</style>
+
+</head>
+
+<body>
+	<main>
+	<div><h1>Error 404: Page cannot be found</h1></div>
+		<div class="bouncehouse">
+		<div class="vertical"><img src="zil.gif" alt="zilean"></div>
+		</div>
+	</main>
+</body>
+</html>
